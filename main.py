@@ -44,7 +44,7 @@ vzr_df = add_column_date(vzr_df)
 # det_df.to_csv('2022-2024_DET.csv', index=False)
 # vzr_df.to_csv('2019-2024_VZR.csv', index=False)
 
-# Сортируем данные по дате (на случай, если они не упорядочены)
+# Сортируем данные по дате
 det_df = det_df.sort_values('Дата')
 vzr_df = vzr_df.sort_values('Дата')
 
